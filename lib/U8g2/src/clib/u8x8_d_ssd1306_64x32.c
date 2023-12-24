@@ -233,9 +233,9 @@ static const uint8_t u8x8_d_ssd1306_64x32_1f_init_seq[] = {
   U8X8_CA(0x0d9, 0x022),		/* [2] pre-charge period 0x022/f1 */
   U8X8_CA(0x0db, 0x000),		/* vcomh deselect level */
   
-  U8X8_C(0x02e),				/* Deactivate scroll */ 
-  U8X8_C(0x0a4),				/* output ram to display */
-  U8X8_C(0x0a6),				/* none inverted normal display mode */
+//  U8X8_C(0x02e),				/* Deactivate scroll */
+//  U8X8_C(0x0a4),				/* output ram to display */
+//  U8X8_C(0x0a6),				/* none inverted normal display mode */
     
   U8X8_END_TRANSFER(),             	/* disable chip */
   U8X8_END()             			/* end of sequence */
